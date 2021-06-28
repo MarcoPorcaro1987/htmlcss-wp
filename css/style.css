@@ -21,6 +21,15 @@ body {
 	clear: both;
 }
 
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.2); 
+}
+
 /*Header*/
 
 header {
@@ -34,7 +43,7 @@ header {
 }
 
 .navigazione {
-   margin-top: 30px;
+   margin: 30px 0;
    word-spacing: 10px; 
    
 }
@@ -50,11 +59,30 @@ li a {
 
 /*Prima Sezione*/
 
-.hero {
-    background-color: #E1D67A;
-    margin: 30px 0;
-    height: 550px;
+main {
+    border-radius: 10px;
+    overflow: hidden;  
 }
+
+.hero { 
+    height: 500px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.text-hero {
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    left: 6%;
+    width: 50%;
+}
+
+   
 
 /*Seconda Sezione*/
 
