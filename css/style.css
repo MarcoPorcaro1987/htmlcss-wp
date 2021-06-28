@@ -28,6 +28,7 @@ body {
     left: 0;
     right: 0;
     background-color: rgb(0, 0, 0, 0.2); 
+    border-radius: 10px;
 }
 
 /*Header*/
@@ -86,20 +87,13 @@ main {
 
 /*Seconda Sezione*/
 
-.leadership {
-    background-color: #0186FF;
-    margin-bottom: 10px;
-}
-
-.leadership-title {
-    height: 80px;
-    background-color: #ABCFE7;
+.leadership-text p {
+    color: #A9A9A9;
 }
 
 .col-left, .col-center, .col-right {
 	float: left;
-    height: 700px;
-    background-color: #ABCFE7;
+    
 }
 
 .col-left, .col-right {
@@ -112,6 +106,30 @@ main {
     width: calc(50% - 40px) ;
 }
 
+.img1, .img2, .img3 {
+
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img1{
+    background-image: url(../img/img-1.jpg);
+}
+
+.img2 {
+    background-image: url(../img/banner-2.jpg);
+}
+
+.img3 {
+    background-image: url(../img/img-3.jpg);
+}
+
+div h4 {
+    margin: 15px 0;
+}
 /*Footer*/
 
 footer {
