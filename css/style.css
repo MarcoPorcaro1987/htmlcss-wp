@@ -133,7 +133,12 @@ div h4 {
 /*Footer*/
 
 footer {
-    height: 60px;
-    background-color: #8801FE;
-    margin-bottom: 25px;
+    color: red;
+    text-align: center;
+    font-size: small;
+}
+
+.heart {
+    font-size: 17px;
+    margin-left: 4px;
 }
