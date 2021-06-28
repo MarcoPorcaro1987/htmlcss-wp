@@ -24,9 +24,28 @@ body {
 /*Header*/
 
 header {
-    background-color: #E579E6;
-    height: 130px;
-    margin-top: 25px;
+    margin-top: 5px;
+}
+
+.logo {
+    width: 150px;
+    border-right: 1px solid #E5E5E5;
+    padding-right: 20px;
+}
+
+.navigazione {
+   margin-top: 30px;
+   word-spacing: 10px; 
+   
+}
+
+.navigazione li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: #A9A9A9; 
 }
 
 /*Prima Sezione*/
